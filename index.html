@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- Bootstrap CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <title>Company</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="container-navbar container navbar bg-white fixed">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="/assets/icons/icon-navbar.png" alt="" /> Achtenberg</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body text-center">
+            <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link1" href="#">Projetos</a>
+              </li>
+              <li class="nav-item my-3">
+                <a class="nav-link2" href="#">Sobre mim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link3" href="#">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <section
+      class="container-banner container card text-center border-0 rounded-5"
+    >
+      <div class="group-banner card-body">
+        <img src="/assets/icons/Memoji round.png" alt="" />
+        <p class="judul-banner card-title">
+          Hello, I'm Ale <img src="/assets/icons/icon-jempol.png" alt="" />
+        </p>
+        <br />
+        <p class="paragraf-banner card-text">
+          I develop <span class="ideas">ideas</span> and help <br />
+          build a better world <br />through software.
+        </p>
+        <div class="button-banner">
+          <button
+            type="button"
+            class="btn text-white"
+            style="
+              --bs-btn-padding-y: 0.5rem;
+              --bs-btn-padding-x: 2.25rem;
+              --bs-btn-font-size: 0.875rem;
+              margin: 10px;
+              background: #111827;
+              border-radius: 32px;
+            "
+          >
+            Rest API
+          </button>
+          <a href="#" class="button-download-CV"
+            >Download CV
+            <span
+              ><img
+                src="/assets/icons/heroicons-solid_arrow-narrow-right.png"
+                alt=""
+            /></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Category -->
+    <p class="judul-category container">
+      Latest <br />
+      Project
+    </p>
+    <div class="container">
+      <div class="container-content row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card border-0">
+            <h5 class="judul-item-content">E-commerce</h5>
+            <div class="group-button-item">
+              <button
+                type="button"
+                class="btn text-white"
+                style="
+                  --bs-btn-padding-y: 0.5rem;
+                  --bs-btn-padding-x: 1rem;
+                  --bs-btn-font-size: 1rem;
+                  margin-right: 0.625rem;
+                  background: #38bdf8;
+                  border-radius: 32px;
+                "
+              >
+                React
+              </button>
+              <button
+                type="button"
+                class="btn text-white"
+                style="
+                  --bs-btn-padding-y: 0.5rem;
+                  --bs-btn-padding-x: 1rem;
+                  --bs-btn-font-size: 1rem;
+                  background: #f43f5e;
+                  border-radius: 32px;
+                "
+              >
+                Rest API
+              </button>
+            </div>
+            <img src="/assets/img/img-1.png" class="card-img-top" alt="..." />
+            <div class="group-button-footer">
+              <a href="#" class="button-github-deploy">
+                Github
+                <span><img src="/assets/icons/github.png" alt="" /></span>
+              </a>
+              <a href="#" class="button-github-deploy">
+                Deploy
+                <span><img src="/assets/icons/deploy.png" alt="" /></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <h5 class="judul-item-content">Trybe Course</h5>
+            <div class="group-button-item">
+              <button
+                type="button"
+                class="btn text-white"
+                style="
+                  --bs-btn-padding-y: 0.5rem;
+                  --bs-btn-padding-x: 1rem;
+                  --bs-btn-font-size: 1rem;
+                  margin-right: 0.625rem;
+                  background: #38bdf8;
+                  border-radius: 32px;
+                "
+              >
+                React native
+              </button>
+              <button
+                type="button"
+                class="btn text-white"
+                style="
+                  --bs-btn-padding-y: 0.5rem;
+                  --bs-btn-padding-x: 1rem;
+                  --bs-btn-font-size: 1rem;
+                  background: #111827;
+                  border-radius: 32px;
+                "
+              >
+                Rest API
+              </button>
+            </div>
+            <img src="/assets/img/img-1.png" class="card-img-top" alt="..." />
+            <div class="group-button-footer">
+              <a href="#" class="button-github-deploy">
+                Github
+                <span><img src="/assets/icons/github.png" alt="" /></span>
+              </a>
+              <a href="#" class="button-github-deploy">
+                Deploy
+                <span><img src="/assets/icons/deploy.png" alt="" /></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <h5 class="judul-item-content">Trybetunes</h5>
+            <div class="group-button-item">
+              <button
+                type="button"
+                class="btn text-white"
+                style="
+                  --bs-btn-padding-y: 0.5rem;
+                  --bs-btn-padding-x: 1rem;
+                  --bs-btn-font-size: 1rem;
+                  margin-right: 0.625rem;
+                  background: #38bdf8;
+                  border-radius: 32px;
+                "
+              >
+                HTML
+              </button>
+              <button
+                type="button"
+                class="btn text-white"
+                style="
+                  --bs-btn-padding-y: 0.5rem;
+                  --bs-btn-padding-x: 1rem;
+                  --bs-btn-font-size: 1rem;
+                  margin-right: 0.625rem;
+                  background: #34d399;
+                  border-radius: 32px;
+                "
+              >
+                CSS
+              </button>
+              <button
+                type="button"
+                class="btn text-white"
+                style="
+                  --bs-btn-padding-y: 0.5rem;
+                  --bs-btn-padding-x: 1rem;
+                  --bs-btn-font-size: 1rem;
+                  margin-right: 0.625rem;
+                  background: #f59e0b;
+                  border-radius: 32px;
+                "
+              >
+                JS
+              </button>
+              <button
+                type="button"
+                class="btn text-white"
+                style="
+                  --bs-btn-padding-y: 0.5rem;
+                  --bs-btn-padding-x: 1rem;
+                  --bs-btn-font-size: 1rem;
+                  background: #111827;
+                  border-radius: 32px;
+                "
+              >
+                Redux
+              </button>
+            </div>
+            <img src="/assets/img/img-1.png" class="card-img-top" alt="..." />
+            <div class="group-button-footer">
+              <a href="#" class="button-github-deploy">
+                Github
+                <span><img src="/assets/icons/github.png" alt="" /></span>
+              </a>
+              <a href="#" class="button-github-deploy">
+                Deploy
+                <span><img src="/assets/icons/deploy.png" alt="" /></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About me -->
+    <section class="container-item1-about text-center container">
+      <div class="row">
+        <div class="col-sm-5 col-md-6">
+          <div class="judul-about">
+            <p>About</p>
+            <p class="me">me</p>
+          </div>
+          <div class="paragraf-about border-start border-4 border-dark">
+            <p>
+              I'm 20 years old, I'm in career transition, coming from the
+              administrative area where I developed experience with people
+              management, business management and client negotiation. Today I
+              build fullstack applications!
+            </p>
+            <p>Today I build fullstack applications!</p>
+          </div>
+          
+          <!-- Skills -->
+          <div class="container-skills">
+            <p class="judul-skills">Skills</p>
+            <img
+              src="/assets/icons/icon-react.png"
+              class="img-icon-skill"
+              alt=""
+            />
+            <img
+              src="/assets/icons/icon-node.js"
+              class="icon-node img-icon-skill"
+              alt=""
+            />
+            <img
+              src="/assets/icons/icon-mysql.png"
+              class="img-icon-skill"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="img-memoji-drawings col-sm-5 offset-sm-2 col-md-6 offset-md-0 d-flex align-items-center justify-content-center"
+        >
+          <img src="/assets/img/Memoji Drawnings.png" class="img-memoji-drawings-sub" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-footer">
+      <div class="container-item-footer row g-0">
+        <div class="deskripsi-footer col-md-6">
+          <div class="card-body">
+            <p class="judul-item-footer-text1">Do you have any idea?</p>
+            <!-- <p class="judul-item-footer-text2">Tem alguma ideia?</p> -->
+            <p class="sub-judul-item1-footer">Let's build it together!</p>
+
+            <div
+              class="sub-judul-item2-footer position-absolute border border-3 border-end-0 border-start-0 border-top-0"
+            >
+              <p class="px-3">hello@achtenberg.io</p>
+            </div>
+            <div class="medsos" type="button">
+              <img src="/assets/icons/Twitter.png" class="img-twitter" alt="" />
+              <img src="/assets/icons/linkin.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="img-footer-2 text-end col-md-6">
+          <img src="/assets/img/img-footer2.png" class="img-fluid" alt="..." />
+        </div>
+      </div>
+      <p class="design-by">
+        Developed by Alessandro Achtenberg | Design by
+        <span
+          ><img src="/assets/icons/Vector-rafo.png" type="button" alt="image"
+        /></span>
+      </p>
+    </footer>
+
+    <!-- Bootstrap CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

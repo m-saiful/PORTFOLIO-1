@@ -1,0 +1,453 @@
+/* DEKSTOP */
+/* Navbar */
+.container-navbar {
+  margin: 40px 0px 40px 0px;
+  font-family: "Poppins";
+}
+
+.nav-link1 {
+  color: rgba(245, 158, 11, 1);
+  text-decoration: none;
+}
+
+.nav-link2 {
+  color: rgba(56, 189, 248, 1);
+  text-decoration: none;
+  margin: 15px 0px 15px 0px;
+}
+
+.nav-link3 {
+  color: rgba(52, 211, 153, 1);
+  text-decoration: none;
+}
+
+/* Banner */
+.container-banner {
+  /* margin: 0px 90px 0px 90px; */
+  background: linear-gradient(99.03deg, #fbed96 -1%, #abecd6 92.31%);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1),
+    0px 23px 30px rgba(171, 236, 214, 0.2);
+}
+.group-banner {
+  margin: 38px 0px 38px 0px;
+}
+.judul-banner {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: -0.06em;
+  color: #111827;
+}
+.paragraf-banner {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 118.6%;
+  color: #111827;
+}
+.button-banner {
+  margin-top: 42px;
+  font-family: "Poppins";
+}
+
+.ideas {
+  color: rgba(64, 196, 255, 1);
+}
+
+.button-download-CV {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #111827;
+}
+
+.button-github-deploy {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #111827;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px 20px 0px 0px;
+}
+
+/* Category */
+
+.judul-category {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 92px;
+  line-height: 82px;
+  color: #111827;
+  margin: 80px 0px 60px 0px;
+}
+.judul-item-content {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 57px;
+  color: #111827;
+}
+
+.group-button-item {
+  margin: 20px 0px 20px 0px;
+  font-family: "Poppins";
+}
+.group-button-footer {
+  margin: 20px 0px 0px 14px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+  font-family: "Poppins";
+}
+
+/* About Me */
+.judul-about {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 92px;
+  line-height: 82px;
+  color: #111827;
+  text-align: start;
+  margin: 80px 0px 50px 0px;
+}
+
+.vector1 {
+  margin: -180px 0px 0px -300px;
+}
+.me {
+  background-image: url(/assets/img/Vector\ 1.png);
+  background-repeat: no-repeat;
+}
+
+.paragraf-about {
+  text-align: left;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #111827;
+  padding-left: 20px;
+}
+
+.img-memoji-drawings {
+  padding-top: 90px;
+}
+
+/* Skills */
+.container-skills {
+  margin: 48px 0px 0px 0px;
+  text-align: start;
+}
+
+.judul-skills {
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 90%;
+  color: #111827;
+}
+
+.icon-node {
+  margin: 15px;
+}
+
+.container-item1-about {
+  margin: 50.6px 0px 52px 90px;
+}
+
+/* Footer */
+.container-footer {
+  background: #111827;
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-radius: 48px 48px 0px 0px;
+  align-items: center;
+}
+
+.container-item-footer {
+  padding: 80px 80px 80px 80px;
+}
+
+.deskripsi-footer {
+  font-family: "Poppins";
+  font-style: normal;
+  color: #ffffff;
+}
+
+.judul-item-footer-text1 {
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 50px;
+  /* visibility: visible; */
+}
+/* .judul-item-footer-text2 {
+    font-weight: 500;
+    font-size: 92px;
+    line-height: 82px;
+    visibility: hidden;
+  }
+   */
+.sub-judul-item1-footer {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.sub-judul-item2-footer {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.design-by {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.medsos {
+  padding-top: 90px;
+}
+
+.img-twitter {
+  margin-right: 15px;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 376px) {
+  /* Banner */
+  .container-banner {
+    /* margin: 0px 90px 0px 90px; */
+    background: linear-gradient(99.03deg, #fbed96 -1%, #abecd6 92.31%);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1),
+      0px 23px 30px rgba(171, 236, 214, 0.2);
+  }
+  .group-banner {
+    margin: 38px 0px 38px 0px;
+  }
+  .judul-banner {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.06em;
+    color: #111827;
+  }
+  .paragraf-banner {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #111827;
+  }
+  .button-banner {
+    margin-top: 42px;
+    font-family: "Poppins";
+  }
+
+  .ideas {
+    color: rgba(64, 196, 255, 1);
+  }
+
+  .button-download-CV {
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111827;
+  }
+
+  .button-github-deploy {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111827;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 20px 0px 0px;
+  }
+
+  /* Category */
+  .judul-category {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 50px;
+    color: #111827;
+    margin: 80px 0px 60px 0px;
+  }
+  .judul-item-content {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 57px;
+    color: #111827;
+  }
+
+  .group-button-item {
+    margin: 20px 0px 20px 0px;
+    font-family: "Poppins";
+  }
+  .group-button-footer {
+    margin: 20px 0px 0px 14px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111827;
+    font-family: "Poppins";
+  }
+
+  /* About Me */
+  .judul-about {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 50px;
+    color: #111827;
+    text-align: start;
+    margin: 80px 0px 50px 0px;
+  }
+
+  .me {
+    background-image: url(/assets/img/Vector\ 1.png);
+    background-repeat: no-repeat;
+  }
+
+  .paragraf-about {
+    text-align: left;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #111827;
+    padding-left: 20px;
+  }
+
+  .img-memoji-drawings {
+    padding-top: 50px;
+  }
+
+  .img-memoji-drawings-sub {
+    width: 222.95px;
+    height: 222.95px;
+  }
+
+  /* Skills */
+  .container-skills {
+    margin: 48px 0px 0px 0px;
+    text-align: start;
+  }
+
+  .judul-skills {
+    text-align: left;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #111827;
+  }
+
+  .icon-node {
+    margin: 15px;
+  }
+
+  .container-item1-about {
+    margin: 50.6px 0px 52px 90px;
+  }
+
+  .img-icon-skill {
+    width: 84px;
+  }
+
+  /* Footer */
+  .container-footer {
+    background: #111827;
+    box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border-radius: 48px 48px 0px 0px;
+    align-items: center;
+  }
+
+  .container-item-footer {
+    padding: 50px 24px 0px 24px;
+  }
+
+  .deskripsi-footer {
+    font-family: "Poppins";
+    font-style: normal;
+    color: #ffffff;
+  }
+
+  .judul-item-footer-item1 {
+    font-weight: 500;
+    font-size: 92px;
+    line-height: 82px;
+    /* visibility: hidden; */
+  }
+
+  /* .judul-item-footer-text2 {
+    font-weight: 500;
+    font-size: 92px;
+    line-height: 82px;
+    visibility: visible;
+  } */
+
+  .sub-judul-item1-footer {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    margin-bottom: 40px;
+  }
+
+  .sub-judul-item2-footer {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+  }
+
+  .design-by {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    padding-bottom: 35px;
+  }
+
+  .medsos {
+    padding-top: 90px;
+  }
+
+  .img-twitter {
+    margin-right: 15px;
+  }
+
+  .img-footer-2 {
+    visibility: hidden;
+  }
+}
