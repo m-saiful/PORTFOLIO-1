@@ -1,4 +1,3 @@
-/* DEKSTOP */
 /* Navbar */
 .container-navbar {
   margin: 40px 0px 40px 0px;
@@ -23,7 +22,6 @@
 
 /* Banner */
 .container-banner {
-  /* margin: 0px 90px 0px 90px; */
   background: linear-gradient(99.03deg, #fbed96 -1%, #abecd6 92.31%);
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1),
     0px 23px 30px rgba(171, 236, 214, 0.2);
@@ -55,6 +53,9 @@
 
 .ideas {
   color: rgba(64, 196, 255, 1);
+  background-image: url(/assets/img/Vector-2.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .button-download-CV {
@@ -110,6 +111,10 @@
   font-family: "Poppins";
 }
 
+.ver-mais {
+  visibility: hidden;
+}
+
 /* About Me */
 .judul-about {
   font-family: "Poppins";
@@ -128,6 +133,7 @@
 .me {
   background-image: url(/assets/img/Vector\ 1.png);
   background-repeat: no-repeat;
+  background-position: bottom left;
 }
 
 .paragraf-about {
@@ -191,15 +197,8 @@
   font-weight: 500;
   font-size: 56px;
   line-height: 50px;
-  /* visibility: visible; */
 }
-/* .judul-item-footer-text2 {
-    font-weight: 500;
-    font-size: 92px;
-    line-height: 82px;
-    visibility: hidden;
-  }
-   */
+
 .sub-judul-item1-footer {
   font-weight: 400;
   font-size: 20px;
@@ -234,7 +233,6 @@
 @media only screen and (max-width: 376px) {
   /* Banner */
   .container-banner {
-    /* margin: 0px 90px 0px 90px; */
     background: linear-gradient(99.03deg, #fbed96 -1%, #abecd6 92.31%);
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1),
       0px 23px 30px rgba(171, 236, 214, 0.2);
@@ -266,6 +264,10 @@
 
   .ideas {
     color: rgba(64, 196, 255, 1);
+    background-image: url(/assets/img/Vector-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100px;
   }
 
   .button-download-CV {
@@ -320,6 +322,21 @@
     font-family: "Poppins";
   }
 
+  .ver-mais {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111827;
+    padding-top: 55.5px;
+    visibility: visible;
+  }
+
+  .img-ver-mais {
+    margin-left: 12px;
+  }
+
   /* About Me */
   .judul-about {
     font-family: "Poppins";
@@ -329,12 +346,14 @@
     line-height: 50px;
     color: #111827;
     text-align: start;
-    margin: 80px 0px 50px 0px;
+    margin: 50px 0px 50px 0px;
   }
 
   .me {
     background-image: url(/assets/img/Vector\ 1.png);
     background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 150px;
   }
 
   .paragraf-about {
@@ -377,7 +396,7 @@
   }
 
   .container-item1-about {
-    margin: 50.6px 0px 52px 90px;
+    margin: 0px 0px 52px 90px;
   }
 
   .img-icon-skill {
@@ -407,15 +426,7 @@
     font-weight: 500;
     font-size: 92px;
     line-height: 82px;
-    /* visibility: hidden; */
   }
-
-  /* .judul-item-footer-text2 {
-    font-weight: 500;
-    font-size: 92px;
-    line-height: 82px;
-    visibility: visible;
-  } */
 
   .sub-judul-item1-footer {
     font-weight: 400;
